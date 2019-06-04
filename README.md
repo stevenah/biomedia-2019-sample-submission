@@ -4,8 +4,7 @@ This repository aims to provide a skeleton for preparing your submission to the 
 We thank you for your interest in this years Biomedia challenge and wish you the best of luck.
 
 ## How to Participate
-To participate, we require you to build a Docker image of your submission which includes all required dependencies and can be run using the latest version of Docker. Note that the data should not be included within the Docker image itself, as it will be injected by us. Assume that the test dataset will be located at `/biomedia`. An example submission is included within this repository, where we show an example of a Keras based submission.
-
+To participate, we require you to build a Docker image of your submission which includes all required dependencies and can be run using the latest version of Docker. Please note that the data should not be included within the Docker image itself, as it will be injected by us. Assume that the test dataset will be located at `/biomedia`. An example submission is included within this repository, where we show an example of a Keras based submission.
 
 ## Testing your Docker image
 To test you submission, run the following bash command:
@@ -14,7 +13,7 @@ To test you submission, run the following bash command:
 sudo docker run -v <test_set_location>:/biomedia -a stdin -a stdout -a stderr <docker_id> > biomedia_submission.txt 
 ```
 
-The results should be a `.txt` file which lists the name of a file (image or feature) and the associated prediction of said file.
+The results should be a `.txt` file in the format of the example shown in the file `example_biomedia_submission.txt` located within this repository.
 
 ## Submitting your Docker Image
 
@@ -25,3 +24,5 @@ sudo docker save <docker_id> > biomedia_image.tar
 ```
 
 This command will produce a tar file of your Docker image which can easily be sent to one of the organizers of Biomedia 2019. Once the Docker image is exported, submit it to one of the following email addresses; steven@simula.no, michael@simula.no or paal@simula.no.
+
+For any questions, feel free to contact steven@simula.no.
