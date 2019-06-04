@@ -1,5 +1,5 @@
 # The Biomedia ACM Multimedia Sample Submission
-This repository aims to provide a skeleton for preparing your submission to the 2019 Biomedia ACM Multimedia Grand Challange. For starters, we require that each submission is delivered in the form of a Docker image. This Docker image should create the submission file described in the challenge description. If you are new to docker, a good place to start is the [Get Started](https://docs.docker.com/get-started/) page of the official Docker documentation.
+This repository aims to provide a skeleton for preparing your submission to the [2019 Biomedia ACM Multimedia Grand Challange](https://github.com/kelkalot/biomedia-2019). For starters, we require that each submission is delivered in the form of a Docker image. This Docker image should create the submission file described in the challenge description. If you are new to docker, a good place to start is the [Get Started](https://docs.docker.com/get-started/) page of the official Docker documentation.
 
 We thank you for your interest in this years Biomedia challenge and wish you the best of luck.
 
